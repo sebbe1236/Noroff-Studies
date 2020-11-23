@@ -1,1 +1,1 @@
-# repository for my future built a website assignments
+# repository for my future Noroff assignments
