@@ -12,17 +12,24 @@ h1 {
 }
 
 header {
-  display: inline block;
   background-color: #dddddd;
+  display: flex;
+  flex-direction: row;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0%;
+  margin: 0;
+}
+footer {
+  background-color: #728ea6;
+  display: flex;
+  padding: 30px;
 }
 
 .nav {
   text-align: center;
+  word-spacing: 3em;
 }
 .nav li {
   display: inline;
@@ -35,7 +42,24 @@ body {
   border-radius: 8px;
   color: white;
   text-decoration: none;
+  word-spacing: 10px;
 }
 .nav a:hover {
   text-decoration: underline;
+}
+
+.contactusnav {
+  background-color: #030100;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+footer > div {
+  margin-left: auto;
+}
+
+.searchhomepage {
+  border-radius: 30px;
 }
