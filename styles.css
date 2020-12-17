@@ -28,6 +28,18 @@ footer {
   padding: 30px;
 }
 
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
 .nav {
   text-align: center;
 
