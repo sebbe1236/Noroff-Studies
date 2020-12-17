@@ -18,42 +18,68 @@
           ><img src="images/RainyDays_Logo.png" alt="Brand logo"
         /></a>
       </div>
-      <div>
-        <ul class="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menssection.html">Mens</a></li>
-          <li><a href="womensseection.html">Womens</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="contact.html">About</a></li>
-        </ul>
+      
+      <div class="nav">
+          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+          <input type="checkbox" id="hamburger-menu"/>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menssection.html">Mens</a></li>
+            <li><a href="womensseection.html">Womens</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">About</a></li>
+          </ul>
       </div>
-      <div>
+
+      <div class="searchbar">
         <form>
           <label text="form" id="search">search</label>
-          <input class="searchhomepage" type="text" id="search" name="search" />
+          <input type="text" id="search" name="search" />
         </form>
       </div>
     </header>
     <main>
       <h1>This weeks most popular purchases</h1>
-      <section>
-        <img
-          src="images/picture for article 1.png"
-          alt="picture of jacketperson1"
-        />
-        <h3>Pushing the comfort zone</h3>
-        <article>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, iusto.
-          Expedita distinctio voluptates quae odio maiores sint ut magni commodi
-          minima, quasi a quod laborum voluptatem nam molestias ab officiis nemo
-          quis, quaerat alias? Consequuntur in ex aliquid magni labore unde
-          enim, eligendi accusantium saepe deserunt, eius, repudiandae error
-          aut!
-        </article>
-      </section>
-      <sectiion>
-        <h3>Blogpost about hiking trip</h3>
-      </sectiion>
+      <section class="frontpage_articles">
+        <div class="article_picture">
+          <img
+            src="images/picture for article 1.png"
+            alt="picture of jacketperson1"
+          />
+          <h3>Pushing the comfort zone</h3>
+          <article>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde,
+            iusto. Expedita distinctio voluptates quae odio maiores sint ut
+            magni commodi minima, quasi a quod laborum voluptatem nam molestias
+            ab officiis nemo quis, quaerat alias? Consequuntur in ex aliquid
+            magni labore unde enim, eligendi accusantium saepe deserunt, eius,
+            repudiandae error aut!
+          </article>
+        </div>
+
+        <div class="article_picture">
+          <img src="/images/picture for artice 2.png" alt="hiking story">
+          <h3>Blogpost about hiking trip</h3>
+          <article>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde,
+            iusto. Expedita distinctio voluptates quae odio maiores sint ut
+            magni commodi minima, quasi a quod laborum voluptatem nam molestias
+            ab officiis nemo quis, quaerat alias? Consequuntur in ex aliquid
+            magni labore unde enim, eligendi accusantium saepe deserunt, eius,
+            repudiandae error aut!
+          </article>
+        </div>
+        <div class="article_picture">
+          <img src="images/picture for article 3.png">
+          <h3>Winter is coming</h3>
+          <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde,
+            iusto. Expedita distinctio voluptates quae odio maiores sint ut
+            magni commodi minima, quasi a quod laborum voluptatem nam molestias
+            ab officiis nemo quis, quaerat alias? Consequuntur in ex aliquid
+            magni labore unde enim, eligendi accusantium saepe deserunt, eius,
+            repudiandae error aut!</article>
+          </div>
+      
     </main>
     <footer>
       <div><a href="contact.html" class="contactusnav">Contact us</a></div>
