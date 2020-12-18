@@ -15,7 +15,7 @@ header {
   background-color: #dddddd;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 body {
@@ -57,19 +57,15 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   grid-gap: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .nav ul {
   margin-top: auto;
   margin-bottom: auto;
 }
-
 .nav li {
   display: inline;
 }
-
 .nav a {
   display: inline-block;
   background-color: #d9593d;
@@ -94,7 +90,18 @@ nav {
   text-decoration: underline;
 }
 
-footer > div {
+.footer-icons {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+.footer-nav {
+  display: flex;
   margin-left: auto;
 }
 
