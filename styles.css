@@ -20,7 +20,10 @@ header {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
   margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 footer {
   background-color: #728ea6;
@@ -40,6 +43,13 @@ nav {
   display: block;
 }
 
+.mobile-nav a {
+  color: #030100;
+  text-decoration: none;
+}
+.mobile-nav a:hover {
+  text-decoration: underline;
+}
 .nav {
   text-align: center;
 
