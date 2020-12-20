@@ -44,12 +44,14 @@ nav {
 }
 
 .mobile-nav a {
-  color: #030100;
+  color: black;
   text-decoration: none;
   display: block;
 }
 .mobile-nav a:hover {
   text-decoration: underline;
+  background-color: black;
+  color: white;
 }
 .nav {
   text-align: center;
@@ -155,6 +157,7 @@ nav {
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 5px;
   }
 }
 
