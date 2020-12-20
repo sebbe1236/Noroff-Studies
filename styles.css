@@ -47,6 +47,7 @@ nav {
   color: black;
   text-decoration: none;
   display: block;
+  padding: 5px;
 }
 .mobile-nav a:hover {
   text-decoration: underline;
@@ -159,6 +160,15 @@ nav {
     margin-bottom: auto;
     border-radius: 5px;
   }
+}
+#search {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.searchicon {
+  position: absolute;
+  padding: 10px;
 }
 
 /*hamburger meny*/
