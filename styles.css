@@ -46,6 +46,7 @@ nav {
 .mobile-nav a {
   color: #030100;
   text-decoration: none;
+  display: block;
 }
 .mobile-nav a:hover {
   text-decoration: underline;
@@ -129,6 +130,7 @@ nav {
 
   header {
     flex-direction: column;
+    display: flex;
   }
 
   nav {
@@ -163,7 +165,7 @@ label {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .hamburger-menu {
     flex-direction: column;
   }
