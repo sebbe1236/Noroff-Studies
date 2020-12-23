@@ -178,7 +178,7 @@ label {
   display: none;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 971px) {
   .hamburger-menu {
     flex-direction: column;
   }
@@ -188,7 +188,7 @@ label {
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 971px) {
   .main-nav {
     display: none;
   }
