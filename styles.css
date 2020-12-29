@@ -106,9 +106,6 @@ footer {
   flex-direction: column;
 }
 
-.frontpage_articles {
-  flex: 1;
-}
 .searchbar {
   margin-top: auto;
   margin-bottom: auto;
@@ -207,5 +204,12 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .article img {
+    width: 100%;
+  }
+
+  .article {
+    padding: 10px;
   }
 }
