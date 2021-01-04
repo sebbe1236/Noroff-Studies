@@ -72,6 +72,27 @@ footer {
   text-decoration: underline;
 }
 
+.homepage-main {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.homepage {
+  text-decoration: none;
+}
+.mens-page {
+  text-decoration: none;
+}
+.mens-pagemain {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.womens-pagemain {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.womens-page {
+  text-decoration: none;
+}
 .contactusnav {
   background-color: #030100;
   color: white;
