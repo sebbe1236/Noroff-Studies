@@ -244,9 +244,13 @@ footer {
   margin-bottom: auto;
   text-decoration: none;
 }
-.price-information {
+.jacket-confirm {
   padding: 80px;
-  padding-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+.jacket-confirm img {
+  padding: 30px;
 }
 h3 {
   text-align: center;
@@ -285,7 +289,13 @@ label {
     display: flex;
     flex-direction: column;
   }
-
+  .price-information {
+    text-align: center;
+  }
+  .confirm-purchasebtn {
+    display: flex;
+    flex-direction: column;
+  }
   h3 {
     text-align: center;
   }
