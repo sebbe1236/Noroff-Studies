@@ -229,7 +229,28 @@ footer {
 .jacket-alignment {
   text-align: center;
 }
-
+.checkout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+.confirm-purchasebtn {
+  background-color: #030100;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: auto;
+  text-decoration: none;
+}
+.price-information {
+  padding: 80px;
+  padding-top: 30px;
+}
+h3 {
+  text-align: center;
+}
 h4,
 h3 {
   padding: 15px;
@@ -260,6 +281,11 @@ label {
     align-items: center;
     padding: 10px;
   }
+  .checkout-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
   h3 {
     text-align: center;
   }
