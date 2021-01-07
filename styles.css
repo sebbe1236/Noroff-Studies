@@ -251,7 +251,6 @@ footer {
 }
 .jacket-confirm img {
   padding: 30px;
-  border: 1px solid;
 }
 .price-information {
   border: 1px solid;
@@ -260,9 +259,11 @@ footer {
 .card-form {
   border: 1px solid;
   border-spacing: 5px;
+  padding: 5px;
 }
 .card-information {
   border: 1px solid;
+  padding: 5px;
 }
 h3 {
   text-align: center;
