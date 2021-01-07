@@ -251,6 +251,18 @@ footer {
 }
 .jacket-confirm img {
   padding: 30px;
+  border: 1px solid;
+}
+.price-information {
+  border: 1px solid;
+}
+
+.card-form {
+  border: 1px solid;
+  border-spacing: 5px;
+}
+.card-information {
+  border: 1px solid;
 }
 h3 {
   text-align: center;
@@ -293,6 +305,10 @@ label {
     text-align: center;
   }
   .confirm-purchasebtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-form {
     display: flex;
     flex-direction: column;
   }
