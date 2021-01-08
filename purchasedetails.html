@@ -3,7 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
     <title>Rainy days</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo-mobile">
+        <a href="index.html"
+          ><img
+            class="mobile-display-logo"
+            src="images/RainyDays_Logo.png"
+            alt="Brand logo"
+        /></a>
+      </div>
+
+      <div class="nav">
+        <label for="hamburger-menu"
+          ><i class="fas fa-bars toggle-icon"></i
+        ></label>
+        <input class="hamburger-menu" type="checkbox" id="hamburger-menu" />
+        <ul class="nav-toggle-container">
+          <li><a href="index.html" class="homepage">Home</a></li>
+          <li><a href="menssection.html" class="mens-page">Mens</a></li>
+          <li><a href="womenssection.html" class="womens-page">Womens</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">About</a></li>
+        </ul>
+      </div>
+
+      <!--potensielt lage en navbar class for burgermenu`n for å få splitta de opp.-->
+
+      <div class="searchbar">
+        <form>
+          <i class="fas fa-search searchicon"></i>
+          <input type="text" id="search" />
+        </form>
+      </div>
+    </header>
+    <main>
+      <h4>Thank you for shopping with us at Rainy Days</h4>
+      <section class="Purchase-details-grid">
+        <div class="Purchase-information">
+          <h5>Your order #123124512</h5>
+          <p>Estimated delivery in 4 days.</p>
+          <p>
+            For questions about your delivery fill out the form on the contact
+            us page.
+          </p>
+        </div>
+        <div class="Product-jacket-purchase">
+          <h5>Product:</h5>
+          <p>Cross country skiing jacket</p>
+          <img
+            src="images/Hoved jakken.png"
+            alt="Placement for jacket choosen"
+          />
+          <p class="Payment-confirmation">Payment completed</p>
+        </div>
+        <div class="Delivery-address-info">
+          <h5>Delivery address:</h5>
+          <p>First name</p>
+          <p>Last Name</p>
+          <p>Town</p>
+          <p>Zip code</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-nav">
+        <a href="contact.html" class="contactusnav">Contact us</a>
+        <img
+          class="footer-icons ml"
+          src="/images/facebook-square-brands.svg"
+          alt="facebookicon"
+        />
+        <img
+          class="footer-icons"
+          src="images/instagram-square-brands.svg"
+          alt="instaicon"
+        />
+        <img
+          class="footer-icons"
+          src="images/twitter-square-brands.svg"
+          alt="twittericon"
+        />
+      </div>
+    </footer>
+  </body>
 </html>
