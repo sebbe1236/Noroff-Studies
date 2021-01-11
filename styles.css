@@ -93,6 +93,20 @@ footer {
 .womens-page {
   text-decoration: none;
 }
+.contact-page {
+  text-decoration: none;
+}
+.contact-main {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.About-main {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.About-page {
+  text-decoration: none;
+}
 .contactusnav {
   background-color: #030100;
   color: white;
@@ -325,21 +339,31 @@ h5 {
 /*contact-page css*/
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   justify-items: center;
 }
-.Form-contact {
+.Contact-section {
   text-align: center;
-  padding: 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #Product-feedback {
-  height: 200px;
+  height: 230px;
   width: 175px;
-  text-align: center;
 }
 h5 {
   text-align: center;
+}
+.Submitform-btn {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 30px;
+  display: inline;
 }
 /*media quary*/
 @media (max-width: 1500px) {
@@ -387,10 +411,16 @@ h5 {
     display: flex;
     flex-direction: column;
   }
+
+  .Contact-section input {
+    width: 100%;
+    padding: 10px;
+  }
   .feedback {
     display: flex;
     flex-direction: column;
   }
+
   h3 {
     text-align: center;
   }
