@@ -365,6 +365,24 @@ h5 {
   padding: 5px 30px;
   display: inline;
 }
+/*about page*/
+.About-page-grid {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: 1fr;
+}
+
+.About-page-grid img {
+  padding: 30px;
+}
+.About-page-grid p {
+  padding: 30px;
+}
+h5 {
+  text-align: left;
+  padding: 30px;
+}
+
 /*media quary*/
 @media (max-width: 1500px) {
   .mens-section-grid {
@@ -402,6 +420,7 @@ h5 {
     display: flex;
     flex-direction: column;
   }
+
   .card-form {
     display: flex;
     flex-direction: column;
@@ -420,7 +439,13 @@ h5 {
     display: flex;
     flex-direction: column;
   }
-
+  .About-page-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .About-page-grid img {
+    width: 100%;
+  }
   h3 {
     text-align: center;
   }
