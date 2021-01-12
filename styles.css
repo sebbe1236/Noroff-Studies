@@ -363,12 +363,16 @@ h5 {
   text-align: center;
 }
 .Submitform-btn {
-  background-color: grey;
-  color: white;
+  transition-property: background-color;
+  transition-duration: 1.5s;
   border-radius: 10px;
   text-align: center;
   padding: 5px 30px;
   display: inline;
+}
+.Submitform-btn:hover {
+  background-color: #262616;
+  color: white;
 }
 /*about page*/
 .About-page-grid {
