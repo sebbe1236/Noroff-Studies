@@ -221,8 +221,13 @@ footer {
   justify-content: space-between;
   background-color: #728ea6;
 }
-.jacket-container li a:hover {
-  background-color: #030100;
+.jacket-container button {
+  transition-property: background-color;
+  transition-duration: 1.5s;
+  padding: 5px 10px;
+}
+.jacket-container button:hover {
+  background-color: #262616;
   color: white;
 }
 .checkout-btn {
