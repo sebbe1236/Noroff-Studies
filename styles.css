@@ -285,6 +285,9 @@ footer {
   border: 1px solid;
   padding: 5px;
 }
+.payment-cards {
+  font-size: 30px;
+}
 h3 {
   text-align: center;
 }
