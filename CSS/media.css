@@ -2,12 +2,12 @@
 @media (max-width: 1200px) {
   header {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template: auto auto / auto auto;
     grid-template-areas:
       "logo nav"
-      "searchbar searchbar";
+      "logo searchbar";
   }
+  /*for å få to ting på samme grid-row så skriver man "logo nav" f.eks*/
   .logo-mobile {
     grid-area: logo;
   }
