@@ -1,4 +1,27 @@
 /*media quary*/
+@media (max-width: 1200px) {
+  header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "logo nav"
+      "searchbar searchbar";
+  }
+  .logo-mobile {
+    grid-area: logo;
+  }
+  .nav {
+    grid-area: nav;
+  }
+  .searchbar {
+    grid-area: searchbar;
+  }
+  .searchbar input {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1500px) {
   .mens-section-grid {
     display: flex;
@@ -140,5 +163,12 @@
 
   .article {
     padding: 10px;
+  }
+  .about-pictures-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-toggle-container a {
+    width: 100%;
   }
 }

@@ -10,6 +10,7 @@
   padding: 0;
 }
 /*css for homepage and the details that stay the same on the rest of the pages*/
+
 h1,
 h2 {
   text-align: center;
@@ -67,6 +68,7 @@ footer {
   border-radius: 8px;
   color: black;
   text-decoration: none;
+  width: 130px;
 }
 
 .nav-toggle-container a:hover {
