@@ -23,6 +23,10 @@ header {
   justify-content: space-around;
 }
 
+header {
+  min-height: 137px;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   min-height: 100vh;
