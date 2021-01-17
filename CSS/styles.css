@@ -265,11 +265,9 @@ input {
 .About-page-grid p {
   padding: 30px;
 }
-h5 {
-  text-align: left;
-  padding: 30px;
+::-webkit-input-placeholder {
+  padding-left: 20px;
 }
-
 .about-pictures-flex {
   display: flex;
   justify-content: space-around;
