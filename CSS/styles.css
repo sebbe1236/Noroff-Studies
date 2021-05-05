@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Arimo";
-  src: url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 }
 * {
   box-sizing: border-box;
@@ -38,7 +37,7 @@
 }
 .category-container img {
   height: 246px;
-  width: auto;
+  width: 100%;
 }
 .searchbar {
   margin-top: auto;
@@ -50,10 +49,15 @@
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 5px;
+  text-align: center;
 }
 
+.searchbar input:hover {
+  transition-property: background;
+  transition-duration: 1s;
+  background: lightcyan;
+}
 #search {
-  padding: 10px;
   border-radius: 10px;
 }
 #search input {
@@ -66,9 +70,8 @@
 /*choosen-productpage*/
 .choosen-jacket-grid {
   display: grid;
-  flex-direction: column;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: minmax(300px, auto);
   justify-items: center;
 
   padding: 70px;
@@ -120,9 +123,10 @@
 /*checkout-page css*/
 .checkout-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  justify-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: minmax(200px, auto);
+  justify-content: center;
+  align-items: center;
 }
 .confirm-purchasebtn {
   background-color: #030100;
@@ -132,17 +136,20 @@
   margin-top: 10px;
   margin-bottom: auto;
   text-decoration: none;
+  display: block;
 }
 .jacket-confirm {
   padding: 80px;
   padding-top: 10px;
   text-align: center;
+  align-self: center;
 }
 .jacket-confirm img {
   padding: 30px;
 }
 .price-information {
   border: 1px solid;
+  text-align: center;
 }
 
 .card-form {
@@ -152,6 +159,10 @@
 }
 .card-information {
   border: 1px solid;
+  padding: 5px;
+}
+
+.card-information p {
   padding: 5px;
 }
 .payment-cards {

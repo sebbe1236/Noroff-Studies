@@ -29,13 +29,18 @@
   }
 }
 
-@media (max-width: 971px) {
+@media (max-width: 1250px) {
   .frontpage_articles {
     display: flex;
     flex-direction: column;
   }
   .category-container {
     flex-direction: column;
+  }
+
+  .category-container img {
+    width: 100%;
+    height: auto;
   }
   .choosen-jacket-grid {
     display: flex;
