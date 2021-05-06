@@ -42,6 +42,10 @@
     width: 100%;
     height: auto;
   }
+  .main-jacket a {
+    width: 100%;
+    height: auto;
+  }
   .choosen-jacket-grid {
     display: flex;
     flex-direction: column;
