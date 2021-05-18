@@ -56,17 +56,34 @@
       <section class="contact-grid">
         <div class="Contact-section">
           <h3>Contact us:</h3>
-          <label for="name">Your Name</label>
-          <input type="text" id="name" placeholder="Fill in your name" />
-          <label for="email">Your e-mail</label>
-          <input type="text" id="email" placeholder="e-mail" />
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" placeholder="Subject of your problem" />
-          <form>
-            <label for="Product-feedback"></label>
-            <textarea id="Product-feedback"></textarea>
+          <form class="contact-form">
+            <div>
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="Fill in your first name" />
+              <div class="firstnameError">Please fill in your firstname</div>
+            </div>
+            <div>
+              <label for="name">Last Name</label>
+              <input type="text" id="lastName" placeholder="Fill in your last name" />
+              <div class="lastnameError">Please fill in your lastname</div>
+            </div>
+            <div>
+              <label for="email">Your e-mail</label>
+              <input type="text" id="email" placeholder="e-mail" />
+              <div class="emailError">Please enter a valid address</div>
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Subject of your problem" />
+              <div class="subjectError">Please fill in the subject of your problem</div>
+            </div>
+            <div>
+              <label for="Product-feedback"></label>
+              <textarea id="Product-feedback"></textarea>
+              <div class="textareaError">Please enter some more information</div>
+            </div>
+            <button class="Submitform-btn" type="submit">Submit form</button>
           </form>
-          <button class="Submitform-btn" type="button">Submit form</button>
         </div>
         <div class="Contact-section">
           <h3>FAQ:</h3>
@@ -100,5 +117,6 @@
         <img class="footer-icons" src="images/twitter-square-brands.svg" alt="twittericon" />
       </div>
     </footer>
+    <script src="js/contact.js"></script>
   </body>
 </html>

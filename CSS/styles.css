@@ -243,6 +243,13 @@ h5 {
   width: 195px;
   padding: 5px;
 }
+.firstnameError,
+.lastnameError,
+.emailError,
+.subjectError,
+.textareaError {
+  display: none;
+}
 h5 {
   text-align: center;
 }

@@ -77,6 +77,9 @@
     width: 100%;
     padding: 8px;
   }
+  .Error-Message {
+    display: none;
+  }
 
   .contact-grid {
     display: flex;
@@ -86,6 +89,10 @@
   .Contact-section input {
     width: 100%;
     padding: 10px;
+  }
+
+  .Contact-section div {
+    width: 100%;
   }
   .feedback {
     display: flex;
