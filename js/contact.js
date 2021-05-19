@@ -11,26 +11,24 @@ const form = document.querySelector(".contact-form");
 const errorMessage = document.querySelector(".Error-Message");
 const textArea = document.querySelector("#Product-feedback");
 const textareaError = document.querySelector(".textareaError");
+const successMessage = document.querySelector(".form-succesful");
 
 form.addEventListener("submit", contactFormCheck);
 
 function contactFormCheck(event) {
-  console.log("nnlasdgddfgsdfgs");
   event.preventDefault();
 
-  if (Length(firstName.value, 1) === true) {
+  if (Length(firstName.value, 3) === true) {
     firstnameError.style.display = "none";
-    console.log("test");
   } else {
     firstnameError.style.display = "block";
-    console.log("test3");
   }
   if (Length(subjectField.value, 5) === true) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
   }
-  if (Length(lastName.value, 1) === true) {
+  if (Length(lastName.value, 3) === true) {
     lastnameError.style.display = "none";
   } else {
     lastnameError.style.display = "block";
@@ -45,6 +43,12 @@ function contactFormCheck(event) {
   } else {
     textareaError.style.display = "block";
   }
+  if (form.value === true) {
+    successMessage.style.display = "block";
+  } else {
+    successMessage.style.display = "none";
+  }
+  form.reset();
 }
 
 function Length(value, len) {
