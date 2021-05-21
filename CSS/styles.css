@@ -112,6 +112,9 @@
   margin-top: 10px;
   margin-bottom: auto;
 }
+.checkout-btn:hover {
+  background-color: #f21a1a;
+}
 .checkout-btnflex {
   display: flex;
   justify-content: right;
@@ -137,6 +140,10 @@
   margin-bottom: auto;
   text-decoration: none;
   display: block;
+}
+
+.confirm-purchasebtn:hover {
+  background-color: #f21a1a;
 }
 .jacket-confirm {
   padding: 80px;
@@ -206,8 +213,8 @@ h5 {
   padding: 10px;
 }
 .Payment-confirmation {
-  background-color: #f21a1a;
-  color: white;
+  background-color: lightgray;
+  color: black;
   border-radius: 10px;
   padding: 10px;
   margin-top: 15px;
