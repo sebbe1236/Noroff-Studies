@@ -247,8 +247,20 @@ h5 {
 .lastnameError,
 .emailError,
 .subjectError,
-.textareaError {
+.textareaError,
+.form-succesful {
   display: none;
+}
+.form-succesful {
+  background-color: #f21a1a;
+  text-decoration-color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.btn-spacing {
+  padding: 15px;
 }
 
 h5 {

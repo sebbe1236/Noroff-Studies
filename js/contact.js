@@ -1,4 +1,4 @@
-const submitButton = document.querySelector(".Submitform-btn");
+//const submitButton = document.querySelector(".Submitform-btn");
 const firstName = document.querySelector("#firstName");
 const firstnameError = document.querySelector(".firstnameError");
 const lastName = document.querySelector("#lastName");
@@ -8,48 +8,63 @@ const emailError = document.querySelector(".emailError");
 const subjectField = document.querySelector("#subject");
 const subjectError = document.querySelector(".subjectError");
 const form = document.querySelector(".contact-form");
-const errorMessage = document.querySelector(".Error-Message");
+const errorMessage = document.querySelector("Error-Message");
 const textArea = document.querySelector("#Product-feedback");
 const textareaError = document.querySelector(".textareaError");
 const successMessage = document.querySelector(".form-succesful");
 
-form.addEventListener("submit", contactFormCheck);
-
-function contactFormCheck(event) {
-  event.preventDefault();
-
+function contactFormCheck() {
+  //event.preventDefault();
+  let validForm = true;
   if (Length(firstName.value, 3) === true) {
     firstnameError.style.display = "none";
   } else {
     firstnameError.style.display = "block";
+    validform = false;
   }
   if (Length(subjectField.value, 5) === true) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
+    validForm = false;
   }
   if (Length(lastName.value, 3) === true) {
     lastnameError.style.display = "none";
   } else {
     lastnameError.style.display = "block";
+    validForm = false;
   }
   if (emailValue(email.value) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
+    validForm = false;
   }
   if (Length(textArea.value, 5) === true) {
     textareaError.style.display = "none";
   } else {
     textareaError.style.display = "block";
+    validForm = false;
   }
-  if (form.value === true) {
+  return validForm;
+  //form.reset();
+}
+function submitForm(event) {
+  event.preventDefault();
+
+  const sentMessage = contactFormCheck();
+  if (sentMessage === true) {
+    //successMessage.innerHTML = '<div class="form-succesful">Your message has been sent</div>';
     successMessage.style.display = "block";
+    console.log("testtt");
   } else {
-    successMessage.style.display = "none";
+    return false;
   }
+
   form.reset();
 }
+
+form.addEventListener("submit", submitForm);
 
 function Length(value, len) {
   if (value.length >= len) {

@@ -56,7 +56,7 @@
       <section class="contact-grid">
         <div class="Contact-section">
           <h3>Contact us:</h3>
-          <form method="GET" class="contact-form">
+          <form method="POST" class="contact-form">
             <div>
               <label for="firstName">First Name</label>
               <input type="text" id="firstName" placeholder="Fill in your first name" />
@@ -70,7 +70,7 @@
             <div>
               <label for="email">Your e-mail</label>
               <input type="text" id="email" placeholder="e-mail" />
-              <div class="emailError">Please enter a valid address</div>
+              <div class="emailError">Please enter a valid e-mail address</div>
             </div>
             <div>
               <label for="subject">Subject</label>
@@ -82,8 +82,12 @@
               <textarea id="Product-feedback"></textarea>
               <div class="textareaError">Please enter some more information</div>
             </div>
-            <button class="Submitform-btn" type="submit">Submit form</button>
-            <div class="form-succesful"><p>Your form has been sent</p></div>
+            <div class="btn-spacing">
+              <button class="Submitform-btn" type="submit">Submit form</button>
+            </div>
+            <div>
+              <div class="form-succesful">Your form has been submitted</div>
+            </div>
           </form>
         </div>
         <div class="Contact-section">
