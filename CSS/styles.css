@@ -98,6 +98,8 @@
 .checkout-btncart {
   background-color: orangered;
   text-decoration: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 .addtocart-btn {
   padding: 10px;

@@ -47,7 +47,6 @@ footer {
 #hamburger-menu:checked ~ nav {
   display: block;
 }
-
 .nav {
   text-align: center;
   display: flex;
