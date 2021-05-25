@@ -44,7 +44,15 @@
           <li><a href="about.html" class="About-page">About</a></li>
         </ul>
       </div>
+
       <div class="searchbar">
+        <div class="Cart-icon"><i class="fas fa-cart-plus">Your cart:</i></div>
+        <div class="cart">
+          <div class="choosen-items"></div>
+          <div class="cart-checkoutbtn">
+            <a href="choosenproduct.html"><button class="checkout-btncart">Checkout</button></a>
+          </div>
+        </div>
         <form>
           <i class="fas fa-search searchicon"></i>
           <input type="text" id="search" placeholder="Search here" />
@@ -69,7 +77,11 @@
               <a href="choosenproduct.html">
                 <img src="images/Hoved jakken.png" alt="skiingjackets" />
               </a>
-              <h4>Main jacket</h4>
+
+              <div>
+                <button class="addtocart-btn" data-jacket="skiing jacket cross country">Add to cart</button>
+              </div>
+              <h4>Skiing jacket cross country</h4>
             </div>
           </div>
         </div>
@@ -136,6 +148,6 @@
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/addToCart.js"></script>
   </body>
 </html>
