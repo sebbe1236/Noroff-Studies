@@ -104,6 +104,11 @@
 .addtocart-btn {
   padding: 10px;
 }
+
+.choosen-items {
+  border: 3px solid;
+  border-radius: 10px;
+}
 .addtocart-btn:hover {
   background-color: #d9593d;
 }

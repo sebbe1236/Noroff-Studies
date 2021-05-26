@@ -11,9 +11,10 @@ function addToCart(event) {
   document.querySelector(".cart").style.display = "block";
   let jacketAdded = event.target.dataset.jacket;
   document.querySelector(".choosen-items").innerHTML += `
-    <p>${jacketAdded}</p>
-    <p>Price: 70 euros<p>
+    <ul>${jacketAdded}</ul>
+    <ul>Price: 70 euros</ul>
     `;
+  localStorage.setItem(cartItems, event);
 }
 
 button.addEventListener("click", addToCart);
