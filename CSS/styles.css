@@ -164,7 +164,7 @@
 .checkout-btn:hover {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: maroon;
+  background-color: green;
 }
 .checkout-btnflex {
   display: flex;
@@ -197,7 +197,7 @@
 .confirm-purchasebtn:hover {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: maroon;
+  background-color: green;
 }
 .jacket-confirm {
   padding: 80px;
