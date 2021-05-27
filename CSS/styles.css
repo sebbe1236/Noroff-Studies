@@ -101,8 +101,15 @@
   border-radius: 5px;
   padding: 5px;
 }
+.checkout-btncart:hover {
+  transition-property: color;
+  background-color: green;
+  transition-duration: 0.5s;
+}
+
 .addtocart-btn {
   padding: 10px;
+  background-color: #c4af3d;
 }
 
 .choosen-items {
@@ -110,8 +117,9 @@
   border-radius: 10px;
 }
 .addtocart-btn:hover {
-  background-color: #d9593d;
+  background-color: green;
 }
+
 .Purchaseproduct-btn {
   background-color: blue;
   padding: 10px;
@@ -202,9 +210,6 @@
 
 .jacket-confirm {
   padding: 80px;
-  padding-top: 10px;
-  text-align: center;
-  align-self: center;
 }
 .jacket-confirm img {
   padding: 30px;
