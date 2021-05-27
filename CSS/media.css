@@ -22,12 +22,12 @@
   }
 }
 
-@media (max-width: 1500px) {
+/*@media (max-width: 1500px) {
   .mens-section-grid {
     display: flex;
     flex-direction: column;
   }
-}
+}*/
 
 @media (max-width: 1250px) {
   .frontpage_articles {
@@ -193,4 +193,11 @@
 }
 .jacket-confirm img {
   padding: 30px;
+}
+
+.jacket-confirm {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  text-align: center;
+  align-self: center;
 }
