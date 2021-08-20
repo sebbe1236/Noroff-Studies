@@ -171,4 +171,9 @@ footer {
 }
 .api-content a {
   text-align: center;
+  text-decoration: none;
+}
+
+.query-content {
+  text-align: center;
 }
