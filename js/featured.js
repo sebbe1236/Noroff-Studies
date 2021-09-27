@@ -23,8 +23,8 @@ function productFetch(details) {
   <div class= "featered-contentpage">
   <h3>${details.name}</h3>
                                <div><img src="${details.images[0].src}"></div>
-                               <p><p>Price:</p>${details.prices.price}</p>
-                               <p>Product description:</p>
+                               <p><h3>Price:</h3>${details.prices.price}€</p>
+                               <h3>Product description:</h3>
                                <p>${details.short_description}</p></div>
     `;
 }
