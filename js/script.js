@@ -19,6 +19,7 @@ async function apiWp() {
     const result = await response.json();
     const objects = result;
     console.log(result);
+    bestSellers.innerHTML = "";
     for (let i = 0; i < objects.length; i++) {
       bestSellers.innerHTML += `<a href="featered.html?id=${objects[i].id}"><div>
       <h5>${objects[i].name}</h5>

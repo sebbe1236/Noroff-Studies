@@ -327,6 +327,15 @@ h5 {
 .form-succesful {
   display: none;
 }
+
+.firstnameError,
+.lastnameError,
+.emailError,
+.subjectError,
+.textareaError {
+  font-weight: bold;
+  padding: 10px;
+}
 .form-succesful {
   background-color: green;
   text-decoration-color: white;
@@ -357,6 +366,11 @@ h5 {
 input {
   padding: 10px;
   width: 195px;
+  border-radius: 10px 10px;
+}
+
+form div {
+  padding: 10px;
 }
 
 /*about page*/
@@ -378,4 +392,9 @@ input {
 .about-pictures-flex {
   display: flex;
   justify-content: space-around;
+}
+.query-content img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px 15px;
 }
