@@ -10,8 +10,14 @@
 }
 /*css for homepage and the details that stay the same on the rest of the pages*/
 
-h1 {
+h1,
+h2 {
   text-align: center;
+  font-style: italic;
+}
+h1 {
+  font-weight: bold;
+  font-family: "Josefin Sans";
 }
 
 header {
@@ -198,6 +204,7 @@ footer {
 
 .frontpage_articles img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .api-content img {

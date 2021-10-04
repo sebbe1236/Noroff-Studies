@@ -385,14 +385,19 @@ form div {
 }
 .About-page-grid p {
   padding: 30px;
+  max-width: 550px;
+  margin: 0 auto;
 }
 ::-webkit-input-placeholder {
   padding-left: 20px;
 }
 .about-pictures-flex {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 15px;
 }
+
 .query-content img {
   width: 400px;
   height: auto;
