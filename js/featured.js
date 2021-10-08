@@ -19,11 +19,16 @@ async function idFetch() {
 }
 idFetch();
 function productFetch(details) {
+  console.log(details);
   queryContent.innerHTML += `
-  <div class= "featered-contentpage">
   <h3>${details.name}</h3>
-                               <div><img src="${details.images[0].src}"></div>
-                               <p><h3>Price:</h3>${details.prices.price}€</p>
+  <div class= "featered-contentpage">
+  
+                               <div>
+                               
+                               <img src="${details.images[0].src}"></div>
+                               
+                               <div><p><h3>Price:</h3>${details.prices.price}€</p>
                                <h3>Product description:</h3>
                                <p>${details.short_description}</p></div>
     `;

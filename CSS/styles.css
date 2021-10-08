@@ -399,7 +399,12 @@ form div {
 }
 
 .query-content img {
-  width: 400px;
+  width: 250px;
   height: auto;
   border-radius: 15px 15px;
+}
+
+.query-content p {
+  max-width: 400px;
+  margin: 0 auto;
 }

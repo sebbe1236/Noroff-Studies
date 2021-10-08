@@ -22,7 +22,7 @@ async function apiWp() {
     bestSellers.innerHTML = "";
     for (let i = 0; i < objects.length; i++) {
       bestSellers.innerHTML += `<a href="featered.html?id=${objects[i].id}"><div>
-      <h5>${objects[i].name}</h5>
+      <h5>${objects[i].tags[0].name}</h5>
       <img src="${objects[i].images[0].src}" alt="product image">
       
      
